@@ -1,3 +1,5 @@
+/* GLOBAL */
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -7,6 +9,8 @@
 body{
     background-color: rgb(233, 232, 232);
 }
+
+/* HEADER */
 
 header{
     background-color: rgb(54, 59, 65);
@@ -50,10 +54,7 @@ nav ul {
     margin-left: auto;
 }
 
-
-
-
-
+/* FOOTER */
 
 footer{
     background-color: rgb(54, 59, 65);
