@@ -1,0 +1,33 @@
+
+header{
+    background-color: rgb(54, 59, 65);
+    width: 100%; height: 100%;
+    padding: 0.5rem; 
+}
+
+nav{
+    display: flex;
+    align-items: center;
+}
+
+a {
+    color:white;
+}
+
+#name {
+    margin-left: 20px;
+}
+
+.circleEdge {
+    border-radius: 50%;
+}
+
+nav img {
+    width: 3em;
+}
+
+@media (max-width: 768px) {
+    a {
+        color:red;
+    }
+}
