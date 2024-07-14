@@ -1,0 +1,30 @@
+/* List */
+
+ul {
+    top:100%;
+    
+}
+
+.noList {
+    list-style: none;      
+}
+
+.inlineList {
+    display: inline;
+    
+}
+
+.inlineList li {
+    display: inline-block;
+    margin-left: 3rem;
+    margin-right: 1rem;
+}
+
+/* Icon */
+
+#IconHamburguer{
+    color: white;
+    display: flex;
+    margin-left: auto;
+    font-size: 30px;
+}
