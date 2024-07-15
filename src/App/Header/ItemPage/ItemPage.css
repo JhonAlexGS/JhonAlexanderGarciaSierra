@@ -1,12 +1,9 @@
 /* List */
 
-ul {
+.ulHeader {
     top:100%;
-    
-}
-
-.noList {
-    list-style: none;      
+    display: flex;
+    margin-left: auto;
 }
 
 .inlineList {
@@ -28,3 +25,6 @@ ul {
     margin-left: auto;
     font-size: 30px;
 }
+
+/* lateralMenu */
+
