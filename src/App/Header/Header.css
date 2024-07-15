@@ -22,12 +22,84 @@ a {
     border-radius: 50%;
 }
 
+.noList {
+    list-style: none;      
+}
+
+
 nav img {
     width: 3em;
 }
 
+#lateralMenu {
+    position: absolute;
+    background-color: rgba(117, 113, 113, 0.918);
+    width: 60%;
+    display: flex;
+    flex:1;
+    text-align: center;
+    min-height: calc(100vh - 80px);
+    align-items: center;
+    justify-content: center;
+}
+
+#lateralMenu .noList li{
+    margin: 5rem;   
+}
+
+.rowdies-light {
+    font-family: "Rowdies", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.description {
+    padding: 2rem;
+    margin: 2rem;
+    border-radius: 4%;
+    display: flex;
+    background-color: rgba(198, 202, 207, 0.726);
+}
+
+#imgCat {
+    width: 100px;
+    height: 100px;
+    margin-right: 2%;
+}
+
+.button_slide {
+    color: #FFF;
+    border: 2px solid rgb(216, 2, 134);
+    border-radius: 0px;
+    padding: 18px 36px;
+    display: inline-block;
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: 10px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 #D80286;
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
+}
+
+.slide_left:hover {
+    box-shadow: inset 0 0 0 50px #D80286;
+}
+
 @media (max-width: 768px) {
+
     a {
-        color:red;
+        color:white;
     }
+
+}
+
+@media (max-width: 270px) {
+
+    #name {
+        margin-left: 20px;
+        display: none;
+    }
+
 }
