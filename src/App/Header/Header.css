@@ -43,6 +43,11 @@ nav img {
     justify-content: center;
 }
 
+.description #aboutMe{
+    align-items: center;
+    justify-content: center;
+}
+
 #lateralMenu .noList li{
     margin: 5rem;   
 }
@@ -54,7 +59,7 @@ nav img {
 }
 
 .description {
-    padding: 2rem;
+    padding: 1rem;
     margin: 2rem;
     border-radius: 4%;
     display: flex;
@@ -62,35 +67,72 @@ nav img {
 }
 
 #imgCat {
-    width: 100px;
-    height: 100px;
-    margin-right: 2%;
+    width: 60%;
+    height:60%;
+    /* margin-right: 2%; */
+}
+
+#cardCat{
+    padding: 10px;
+    background-color: rgb(54, 59, 65);
+    border-radius: 10%;
 }
 
 .button_slide {
     color: #FFF;
-    border: 2px solid rgb(216, 2, 134);
+    border: 2px solid rgb(6, 8, 36);
     border-radius: 0px;
-    padding: 18px 36px;
+    padding: 7px 36px;
     display: inline-block;
     font-family: "Lucida Console", Monaco, monospace;
     font-size: 10px;
     letter-spacing: 1px;
     cursor: pointer;
-    box-shadow: inset 0 0 0 0 #D80286;
+    box-shadow: inset 0 0 0 0 #a3a4b1;
     -webkit-transition: ease-out 0.4s;
     -moz-transition: ease-out 0.4s;
     transition: ease-out 0.4s;
+    border-radius: 5%;
 }
 
 .slide_left:hover {
-    box-shadow: inset 0 0 0 50px #D80286;
+    box-shadow: inset 0 0 0 50px rgb(198, 205, 214);
 }
 
-@media (max-width: 768px) {
+.broad{
+    padding-right: 3%;
+    padding-left: 3%;
+}
+
+.containerSkill {
+    border: 1px solid red; /* Para visualizar el elemento */
+    padding: 20px; /* Espaciado interno del elemento */
+}
+  
+
+@media (max-width: 700px) {
+
+    .smallText{
+        font-size: 13px;
+    }
+
+}
+
+
+@media (max-width: 500px) {
+
+    .description {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+}
+
+@media (max-width: 500px) {
 
     a {
-        color:white;
+        color:rgb(212, 11, 11);
     }
 
 }
