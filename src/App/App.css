@@ -22,3 +22,27 @@ footer{
 
 /* FEATURES */
 
+.centerXY{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centrar verticalmente */
+    align-items: center; /* Centrar horizontalmente */
+}
+
+.centerY{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centrar verticalmente */
+}
+
+.centerX{
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centrar horizontalmente */
+}
+
+
+.not-affected {
+    align-self: flex-start; /* O cualquier otra propiedad que necesites */
+    width: 100%;
+}

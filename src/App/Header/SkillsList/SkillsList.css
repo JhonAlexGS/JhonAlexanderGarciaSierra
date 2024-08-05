@@ -1,0 +1,36 @@
+.containerSkills {
+    display: flex;
+    justify-content: space-between; /* Distribuir elementos de forma pareja */
+    align-items: center; /* Centrar verticalmente */
+    padding: 1rem;
+    margin: 2rem;
+}
+
+.box{
+    display: flex;
+    width: 700px;
+    /* background-color: yellow; */
+    margin: 1%;
+    width: 300px;
+    height: 2%px;
+}
+
+.iconData{
+    font-size: 40px;
+}
+
+.skills-list {
+    display: flex;
+    list-style-type: none; /* Quitar puntos de la lista */
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 1px;
+    /* align-items: center; */
+  }
+  
+  .skills-list li {
+    padding: 10px;
+    background-color: #f0f0f0; /* Añadir un fondo para mejor visualización */
+    border: 1px solid #ccc; /* Añadir un borde para mejor visualización */
+    border-radius: 30%;
+  }

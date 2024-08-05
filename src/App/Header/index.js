@@ -1,3 +1,11 @@
+import { FaDatabase } from "react-icons/fa";
+import { MdWebAsset } from "react-icons/md";
+import { IoIosRadio } from "react-icons/io";
+import { MdOutlineSecurity } from "react-icons/md";
+import { GiArtificialIntelligence } from "react-icons/gi";
+import { SiFrontendmentor } from "react-icons/si";
+import { FaUser } from "react-icons/fa";
+import { GrCloudSoftware } from "react-icons/gr";
 import myImage from '../img/Perfil.jpg';
 import myCat0 from '../img/Gato_0.png';
 import myCat1 from '../img/Gato_1.png';
@@ -5,7 +13,7 @@ import myCat2 from '../img/Gato_2.png';
 import ItemsPage from './ItemPage'
 import "./Header.css"
 import React from 'react';
-
+import SkillsList from "./SkillsList";
 
 function Header({widthScreen}) {
 
@@ -58,36 +66,44 @@ function Header({widthScreen}) {
             }
             
             <div className='description'>
-                <img id="imgCat" className='circleEdge' alt="Cat" src={catEyes[stateCatEyes]}  
-                    onClick={
-                        () => {
-                            if (stateCatEyes === 2) {
-                                setstateCatEyes(0)
-                            }else{
-                                setstateCatEyes(stateCatEyes+1)
+
+                <div id="cardCat" class="centerXY">
+                    <img id="imgCat" className='circleEdge' alt="Cat" src={catEyes[stateCatEyes]}  
+                        onClick={
+                            () => {
+                                if (stateCatEyes === 2) {
+                                    setstateCatEyes(0)
+                                }else{
+                                    setstateCatEyes(stateCatEyes+1)
+                                }
+                                
                             }
-                            
-                        }
-                    }/>
-                <div>
-                    <h2 className='rowdies-light'>
-                        Ingeniero de Sistemas y Telecomunicaciones
-                    </h2>
-                    <hr></hr>
-                    <hr></hr>
-                    <p>
-                        Cuento con dos años de experiencia profesional en areas de la tecnología
-                        y con interés en Redes, Base de Datos, Desarrollo Web, Radio 
-                        definida por Software, Arquitectura de Software, Diseño de Experiencia 
-                        de Usuario, Seguridad de la Información, Inteligencia Artificial, 
-                        Desarrollo en el Back-end y Front-end.
+                        }/>
+                    <div class="button_slide slide_left" onClick={handleButtonClick}>CV </div>
+                </div>
+                
+                <div id="aboutMe" class="centerY broad">
+                    <div className="not-affected">
+                        <h2 className='rowdies-light'>
+                            Ingeniero de Sistemas y Telecomunicaciones
+                        </h2>
+                        <hr></hr>
+                        <hr></hr>
+                    </div>
+                    
+                    <p class="smallText">
+                        Cuento con 2 años de experiencia profesional en areas de la tecnología
+                        y con interés en Redes, Base de Datos <FaDatabase />, Desarrollo Web <MdWebAsset />, 
+                        Radio definida por Software <IoIosRadio />, Arquitectura de Software <GrCloudSoftware />,
+                        Diseño de Experiencia de Usuario <FaUser />, Seguridad de la Información <MdOutlineSecurity />,
+                        Inteligencia Artificial <GiArtificialIntelligence />, Desarrollo en el Back-end 
+                        y Front-end <SiFrontendmentor />.
                     </p>
-                    <button onClick={handleButtonClick}>
-                        CV
-                    </button>
-                    <div class="button_slide slide_left">BUTTON: SLIDE INSIDE </div>
                 </div>
             </div>
+
+            <SkillsList/>
+            
             
         </>
     );
