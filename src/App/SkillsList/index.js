@@ -9,7 +9,7 @@ const SkillsList = () =>{
 
   const items = [
     { title: "FrontEnd", name: <FaCode />,
-      skills: ["HTML5", "CSS", "JavaScript", "ReactJS", "TypeScript", "Angular"]
+      skills: ["JavaScript", "ReactJS", "TypeScript", "Angular", "HTML5", "CSS"]
      },
     { title: "Backend", name: <FaServer />,
       skills: ["Python", "Java", "Express", "MySQL", "MongoDB"]

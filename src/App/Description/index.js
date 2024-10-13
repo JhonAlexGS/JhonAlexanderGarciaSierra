@@ -10,6 +10,7 @@ import myCat0 from '../img/Gato_0.png';
 import myCat1 from '../img/Gato_1.png';
 import myCat2 from '../img/Gato_2.png';
 import React from 'react';
+import './Description.css'
 
 const Description = () =>{
 

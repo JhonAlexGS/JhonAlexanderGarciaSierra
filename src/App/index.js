@@ -3,6 +3,7 @@ import Header from './Header'
 import useWindowSize from './useWindowSize';
 import SkillsList from "./SkillsList";
 import Description from './Description';
+import JobsList from './JobsList'
 import './App.css'
 
 
@@ -16,6 +17,9 @@ function App() {
             <Header widthScreen={width}/>
             <Description/>
             <SkillsList/>
+
+            <h3>Empresas apoyadas</h3>
+            <JobsList/>
             
         </React.Fragment>
     );
