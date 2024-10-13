@@ -1,0 +1,43 @@
+.rowdies-light {
+    font-family: "Rowdies", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.description {
+    padding: 1rem;
+    margin: 2rem;
+    border-radius: 4%;
+    display: flex;
+    background-color: rgba(198, 202, 207, 0.726);
+}
+
+#imgCat {
+    width: 60%;
+    height:60%;
+    /* margin-right: 2%; */
+}
+
+#cardCat{
+    padding: 10px;
+    background-color: rgb(54, 59, 65);
+    border-radius: 10%;
+}
+
+@media (max-width: 500px) {
+
+    .description {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+}
+
+@media (max-width: 700px) {
+
+    .smallText{
+        font-size: 13px;
+    }
+
+}

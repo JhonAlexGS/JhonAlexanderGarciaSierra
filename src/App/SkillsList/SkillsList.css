@@ -29,7 +29,7 @@
   }
   
   .skills-list li {
-    padding: 10px;
+    padding: 6px;
     background-color: #f0f0f0; /* Añadir un fondo para mejor visualización */
     border: 1px solid #ccc; /* Añadir un borde para mejor visualización */
     border-radius: 30%;
