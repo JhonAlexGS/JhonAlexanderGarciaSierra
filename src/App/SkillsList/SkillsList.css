@@ -8,11 +8,10 @@
 
 .box{
     display: flex;
-    width: 700px;
     /* background-color: yellow; */
     margin: 1%;
-    width: 300px;
-    height: 2%px;
+    width: 20%;
+    height: 2%;
 }
 
 .iconData{
@@ -20,17 +19,18 @@
 }
 
 .skills-list {
+    margin-top: 5%;
     display: flex;
     list-style-type: none; /* Quitar puntos de la lista */
     flex-wrap: wrap;
     justify-content: space-evenly;
-    gap: 1px;
+    gap: 5px;
     /* align-items: center; */
   }
   
-  .skills-list li {
+.skills-list li {
     padding: 6px;
     background-color: #f0f0f0; /* Añadir un fondo para mejor visualización */
     border: 1px solid #ccc; /* Añadir un borde para mejor visualización */
     border-radius: 30%;
-  }
+}

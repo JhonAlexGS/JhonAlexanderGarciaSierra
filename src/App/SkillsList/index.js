@@ -8,6 +8,7 @@ import './SkillsList.css';
 const SkillsList = () =>{
 
   const items = [
+    
     { title: "FrontEnd", name: <FaCode />,
       skills: ["JavaScript", "ReactJS", "TypeScript", "Angular", "HTML5", "CSS"]
      },
@@ -15,10 +16,10 @@ const SkillsList = () =>{
       skills: ["Python", "Java", "Express", "MySQL", "MongoDB"]
      },
     { title: "Testing", name: <GrTest />,
-      skills: ["Jest", "Selenium"]
+      skills: ["Jest", "Selenium", "Insomnia", "Postman", "Linux"]
      },
     { title: "Herramientas", name: <IoIosSettings />,
-      skills: ["GitHub", "Postman", "Scrum", "Audacity"]
+      skills: ["GitHub", "Scrum", "Audacity", "Matlab", "Skelearn"]
       },
 
   ];

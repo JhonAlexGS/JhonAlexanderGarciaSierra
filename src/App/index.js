@@ -17,8 +17,6 @@ function App() {
             <Header widthScreen={width}/>
             <Description/>
             <SkillsList/>
-
-            <h3>Empresas apoyadas</h3>
             <JobsList/>
             
         </React.Fragment>

@@ -5,40 +5,72 @@
 }
 
 .descriptionJobs {
-    padding: 1rem;
+    /* padding: 1rem;
     margin: 2rem;
-    background-color: rgba(203, 208, 214, 0.726);
+    display: flex;
+    flex-wrap: wrap; */
+
+    /* margin: 2rem; */
+    display: flex;
+    align-items: center; 
+    justify-content: flex-start; 
+    height: 300px; 
+    padding: 10px;
+    background-color: rgba(230, 233, 238, 0.726);
 }
 
 #logoJob {
-    float: left;
-    width: 20%;
-    height: 60%;
+    max-height: 30%; 
 }
 
 #cardJobs{
+    /* display: list-item; */
     padding: 5px;
+    /* background-color: white; */
+    display: flex;
+    align-items: center;    
+    height: 300px;
+    /* border: 1px solid #000; */
 }
 
 #date{
     position: absolute;
-    right: 5%; 
-    padding: 10px;
+    right: 8%; 
+    /* padding: 10px; */
 }
 
-#acquiredSkills {
+/* #acquiredSkills {
     list-style-type: none; 
     padding: 0; 
     margin: 0;
     margin-left: 4%;
-}
+} */
 
 #acquiredSkills li {
     display: inline; 
     margin-right: 20px; 
     padding: 10px;
     border-radius: 10px;
-    background-color: rgba(230, 233, 238, 0.726);
+    /* background-color: rgba(230, 233, 238, 0.726); */
+    background-color: rgba(203, 208, 214, 0.726);
+}
+
+.textData{
+    width: 100px;
+    height: 1px;
+}
+
+.TableJobs{
+    margin: 2rem;
+    background-color: #D0D3D6;
+    padding: 2rem;
+}
+
+#TitleSupport{
+    /* color:white; */
+    font-weight: 900;
+    /* align-items: center; */
+    font-family: "Bebas Neue", sans-serif;
 }
 
 @media (max-width: 500px) {
